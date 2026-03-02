@@ -1,0 +1,74 @@
+﻿<prism:PrismApplication
+    x:Class="ftyt.faceCameraFramework.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:local="clr-namespace:ftyt.faceCameraFramework"
+    xmlns:prism="http://prismlibrary.com/">
+    <prism:PrismApplication.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <materialDesign:CustomColorTheme BaseTheme="Light" PrimaryColor="#A8956A" SecondaryColor="Red" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesign3.Defaults.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <!--font-->
+            <FontFamily x:Key="icon_font">./Resource/Font/materialdesignicons-webfont.ttf#Material Design Icons</FontFamily>
+            <FontFamily x:Key="marcellus_font">./resource/font/Marcellus-Regular.ttf#Marcellus</FontFamily>
+            <FontFamily x:Key="cg_font">./resource/font/CenturyGothic.ttf#Century Gothic</FontFamily>
+            <FontFamily x:Key="mbs_font">./resource/font/MarinaBaySerifv2003-Regular.otf#Marina Bay Serif v2003</FontFamily>
+
+
+            <!--color-->
+            <SolidColorBrush x:Key="background_color">#fafafa</SolidColorBrush>
+            <SolidColorBrush x:Key="primary_color">#A8956A</SolidColorBrush>
+            <SolidColorBrush x:Key="secondary_color">#7f7049</SolidColorBrush>
+
+            <!--font-->
+            <!--
+            <FontFamily x:Key="icon_font">./Resource/Font/materialdesignicons-webfont.ttf#Material Design Icons</FontFamily>
+            <FontFamily x:Key="marcellus_font">./resource/font/Marcellus-Regular.ttf#Marcellus</FontFamily>-->
+
+
+            <!--textblock-->
+            <Style x:Key="icon" TargetType="TextBlock">
+                <Setter Property="FontFamily" Value="{DynamicResource icon_font}"/>
+                <Setter Property="Foreground" Value="{DynamicResource secondary_color}"/>
+                <Setter Property="FontSize" Value="48"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Setter Property="TextAlignment" Value="Center"/>
+            </Style>
+
+            <Style x:Key="header" TargetType="TextBlock">
+                <Setter Property="FontFamily" Value="{StaticResource marcellus_font}"/>
+                <Setter Property="FontSize" Value="48"/>
+                <Setter Property="FontWeight" Value="Bold"/>
+                <Setter Property="Foreground" Value="{StaticResource primary_color}"/>
+            </Style>
+
+            <Style x:Key="title" TargetType="TextBlock" BasedOn="{StaticResource header}">
+                <Setter Property="Foreground" Value="{StaticResource secondary_color}"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Setter Property="TextWrapping" Value="Wrap"/>
+                <Setter Property="TextAlignment" Value="Center"/>
+                <Setter Property="FontSize" Value="60"/>
+            </Style>
+
+            <Style x:Key="description" TargetType="TextBlock" BasedOn="{StaticResource title}">
+                <Setter Property="FontSize" Value="40"/>
+            </Style>
+
+            <Style x:Key="group_header" TargetType="TextBlock">
+                <Setter Property="FontFamily" Value="{StaticResource marcellus_font}"/>
+                <Setter Property="FontSize" Value="15"/>
+                <Setter Property="FontWeight" Value="Normal"/>
+                <Setter Property="Foreground" Value="{StaticResource primary_color}"/>
+            </Style>
+
+            <Style x:Key="body" TargetType="TextBlock" BasedOn="{StaticResource title}">
+                <Setter Property="FontSize" Value="48"/>
+                <Setter Property="Margin" Value="32,64"/>
+            </Style>
+        </ResourceDictionary>
+    </prism:PrismApplication.Resources>
+</prism:PrismApplication>

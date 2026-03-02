@@ -1,0 +1,46 @@
+{
+  "layout": {
+    "scale": 0.45,
+    "topmost": false,
+    "position": {
+      "top": 10,
+      "left": 10
+    }
+  },
+  "shell": {
+    "title": "WELCOME",
+    "content": "WELCOME",
+    "useChineseEnumDescriptions": true
+  },
+  "error": {
+    "content": "Our staff will be with you shortly to provide assistance",
+    "duration": 8
+  },
+  "home": {
+    "faceCaptureTimeout": "Face Capture Timeout",
+    "faceCaptureTimeoutDuration": 3,
+    "faceMatchFail": "Face Match Fail",
+    "processing": "Processing"
+  },
+  "camera": {
+    "IREnable": true,
+    "deviceNo": 0,
+    "detectInterval": 200,
+    "LiveEnable": true,
+    "liveScore": 60,
+    "captureSuccessDuration": 5000
+  },
+  "faceQualityLevel": {
+    "half": 0,
+    "small": 2,
+    "posture": 0,
+    "mask": 1,
+    "faceMask": 0,
+    "hat": 1,
+    "glasses": 2,
+    "gape": 1,
+    "blur": 1,
+    "bright": 1,
+    "light": 1
+  }
+}

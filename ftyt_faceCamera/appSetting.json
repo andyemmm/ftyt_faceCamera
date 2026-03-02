@@ -1,0 +1,28 @@
+{
+  "layout": {
+    "scale": 0.45,
+    "topmost": false,
+    "position": {
+      "top": 10,
+      "left": 10
+    }
+  },
+  "shell": {
+    "title": "WELCOME",
+    "content": "WELCOME",
+    "useChineseEnumDescriptions": true
+  },
+  "error": {
+    "content": "Our staff will be with you shortly to provide assistance",
+    "duration": 8
+  },
+  "home": {
+    "faceCaptureTimeout": "Face Capture Timeout",
+    "faceCaptureTimeoutDuration": 3,
+    "faceMatchFail": "Face Match Fail",
+    "processing": "Processing"
+  },
+  "camera": {
+    "deviceNo": 0
+  }
+}
