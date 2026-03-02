@@ -196,6 +196,14 @@
     <None Include="appSetting.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Document\c#IdFaceSdkDemoV10sp226%283%29.rar" />
+    <None Include="Document\FaceRecognition DEMO 源代码.rar" />
+    <None Include="Document\FaceRecognition 人员注册识别DEMO_V10sp241.rar" />
+    <None Include="Document\TestFaceLive DEMO源代码%282%29.rar" />
+    <None Include="Document\TestFaceLive 活体检测DEMO_V10sp252_X64.rar" />
+    <None Include="Document\人脸识别SDK_WIN32单机版V10sp241%283%29.rar" />
+    <None Include="Document\人脸识别SDK_X64单机版V10sp243%282%29.rar" />
+    <None Include="Document\人脸识别SDK使用说明.pdf" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
